@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+header {
+    background-color: blue;
+    color: gold;
+    text-align: center;
+    padding: 1em;
+}
+
+main {
+    padding: 20px;
+}
+
+.gallery {
+    display: flex;
+    gap: 10px;
+}
+
+.gallery img {
+    width: 100px;
+    cursor: pointer;
+    transition: transform 0.3s, width 0.3s;
+}
+
+.gallery img.selected {
+    width: 200px;
+    transform: scale(1.2);
+}
+
+#dish-info {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}

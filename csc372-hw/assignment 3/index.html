@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus Food Guide</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1>Best Eats Near Campus</h1>
+        <p>Discover the top food spots near UNCG Campus</p>
+    </header>
+    <main>
+        <section id="intro">
+            <p>Are you a food enthusiast on the hunt for the best meals around campus? Your search ends here! We've handpicked a selection of outstanding dishes that will satisfy your cravings. From sizzling pizzas to irresistible fried chicken, there's something for everyone. So, get ready to indulge and explore a world of delicious flavors!</p>
+        </section>
+        <section id="restaurants">
+            <article class="restaurant">
+                <h2>Marco's Pizza</h2>
+                <p>Location: 2408 Spring Garden St | Specialties: Handmade pizza | Hours: 11 AM - 12 AM</p>
+                <div class="gallery">
+                    <img src="pizza.avif" alt="Pepperoni Pizza" class="dish" onclick="showDish(this, 'Pepperoni Pizza', '$16')">
+                    <img src="knots.jpeg" alt="Garlic Knots" class="dish" onclick="showDish(this, 'Garlic Knots', '$6')">
+                    <img src="calzone.jpeg" alt="Calzone" class="dish" onclick="showDish(this, 'Cheese Calzone', '$13')">
+                </div>
+                <div id="dish-info"></div>
+            </article>
+            <article class="restaurant">
+                <h2>Chick-Fil-A</h2>
+                <p>Location: 516 Stirling St | Specialties: Chicken | Hours: 7:30 AM - 10 PM</p>
+                <div class="gallery">
+                    <img src="sandy.png" alt="Chicken Sandwich" class="dish" onclick="showDish(this, 'Chicken Sandwich', '$6')">
+                    <img src="nuggets.jpg" alt="Chicken nuggets" class="dish" onclick="showDish(this, 'Chicken Nuggets', '$6')">
+                    <img src="tenders.jpg" alt="Tenders" class="dish" onclick="showDish(this, 'Chicken Tenders', '$6')">
+                </div>
+                <div id="dish-info"></div>
+            </article>
+            <article class="restaurant">
+                <h2>Panda Express</h2>
+                <p>Location: 1209 North Dr | Specialties: Asian Food | Hours: 11 AM - 9 PM</p>
+                <div class="gallery">
+                    <img src="orangechicken.jpg" alt="Orange Chicken" class="dish" onclick="showDish(this, 'Orange Chicken', '$12')">
+                    <img src="shrimp.jpg" alt="Honey Walnut Shrimp" class="dish" onclick="showDish(this, 'Honey Walnut Shrimp', '$12')">
+                    <img src="kung.jpg" alt="Kung Pao Chicken" class="dish" onclick="showDish(this, 'Kung Pao Chicken', '$12')">
+                </div>
+                <div id="dish-info"></div>
+            </article>
+        </section>
+        <br>
+        <a href="plan.html">Go to Meal Plan</a>
+    </main>
+    <script src="indexScript.js"></script>
+</body>
+</html>
