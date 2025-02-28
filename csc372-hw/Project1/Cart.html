@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" type="text/css" href="Cart.css">
+</head>
+<body>
+    <img src="firesneakers.webp" alt="fireball" class="top" width="150" height="100" />
+    <div class="right">
+        <a href="products.html">
+            <button>Inventory</button>
+        </a>
+    </a>
+    <a href="#">
+        <button>View Account</button>
+    </a>
+        <a href="index.html">
+            <button>Back to Home</button>
+        </a>
+        </div>
+    <h1>Shopping Cart</h1>
+    <div class="cart-container">
+        <table>
+            <tr>
+                <th></th>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Total</th>
+                <th>Remove</th>
+            </tr>
+            <tr>
+                <td><img src="jordan1.webp" alt="Jordan 1" width="50"></td>
+                <td>Jordan 1's</td>
+                <td>$710.00</td>
+                <td><input type="number" value="1" min="1"></td>
+                <td>$710.00</td>
+                <td><button>Remove</button></td>
+            </tr>
+            <tr>
+                <td><img src="jordan3.webp" alt="Jordan 3" width="50"></td>
+                <td>Jordan 3's</td>
+                <td>$221.00</td>
+                <td><input type="number" value="2" min="1"></td>
+                <td>$442.00</td>
+                <td><button>Remove</button></td>
+            </tr>
+            <tr>
+                <td><img src="jordan5.jpg" alt="Jordan 5" width="50"></td>
+                <td>Jordan 5's</td>
+                <td>$221.00</td>
+                <td><input type="number" value="1" min="1"></td>
+                <td>$221.00</td>
+                <td><button>Remove</button></td>
+            </tr>
+        </table>
+
+        <div class="cart-summary">
+            <p>Subtotal: <span id="subtotal">$1373.00</span></p>
+            <p>Tax (6.75%): <span id="tax">$92.68</span></p>
+            <p>Delivery Fee: <span id="delivery-fee">$9.99</span></p>
+            <h3>Total: <span id="total">$1475.67</span></h3>
+            <button id="checkout">Checkout</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Heat Sneakers. All rights reserved.</p>
+    </footer>
+</body>
+</html>

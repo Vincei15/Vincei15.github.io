@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Product Listing</title>
+    <link rel="stylesheet" type="text/css" href="admin.css">
+</head>
+<body>
+    <img src="firesneakers.webp" alt="fire" class="top" width="150" height="100" />
+
+    <h1>Admin Product Listing</h1>
+    
+    <div class="controls">
+        <input type="text" id="search" placeholder="Search products...">
+        <select id="filter-category">
+            <option value="all">All Categories</option>
+            <option value="shoes">Sneakers</option>
+        </select>
+        <button onclick="addProduct()">Add New Product</button>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Product ID</th>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Category</th>
+                <th>Image</th>
+                <th>Price</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>001</td>
+                <td>Jordan 1</td>
+                <td>Jordan OG Retro Bred 1's</td>
+                <td>Sneakers</td>
+                <td><img src="jordan1.webp" width="50"></td>
+                <td>$710.00</td>
+                <td>
+                    <a href="product-edit.html">
+                        <button>Edit</button>
+                    </a>                  
+                    <button>Delete</button>
+                    <button>Archive</button>
+                </td>
+            </tr>
+            <tr>
+                <td>002</td>
+                <td>Jordan 2</td>
+                <td>Jordan OG Retro Chicago 2's</td>
+                <td>Sneakers</td>
+                <td><img src="jordan2.webp" width="50"></td>
+                <td>$210.00</td>
+                <td>
+                    <a href="product-edit.html">
+                        <button>Edit</button>
+                    </a>                    
+                    <button>Delete</button>
+                    <button>Archive</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <a href="admin.html">
+        <button>Back to Admin Home</button>
+    </a>
+</body>
+</html>
