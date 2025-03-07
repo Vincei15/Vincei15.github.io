@@ -19,7 +19,7 @@ document.querySelectorAll(".choice").forEach(choice => {
 });
 
 document.getElementById("play-again").addEventListener("click", () => {
-    document.getElementById("computer-choice").src = "question-mark.png";
+    document.getElementById("computer-choice").src = "question-mark.PNG";
     document.getElementById("result-text").textContent = "Make your move!";
     document.querySelectorAll(".choice").forEach(img => img.classList.remove("selected"));
 });
