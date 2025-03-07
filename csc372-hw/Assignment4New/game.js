@@ -9,7 +9,7 @@ document.querySelectorAll(".choice").forEach(choice => {
         let playerChoice = this.id;
         let computerChoice = choices[Math.floor(Math.random() * choices.length)];
 
-        document.getElementById("computer-choice").src = computerChoice + ".png";
+        document.getElementById("computer-choice").src = computerChoice + ".PNG";
 
         let result = getWinner(playerChoice, computerChoice);
         document.getElementById("result-text").textContent = result;
