@@ -1,0 +1,49 @@
+h1 {
+    color: red;
+    font-family: Arial, sans-serif;
+    font-size: xx-large;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: lightgrey;
+}
+
+.game-container {
+    width: 50%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.choices img {
+    width: 100px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.choice.selected {
+    border: 4px solid red;
+    border-radius: 10px;
+}
+
+.computer-choice img {
+    width: 100px;
+    margin: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    background: red;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: darkred;
+}
